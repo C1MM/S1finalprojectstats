@@ -1,0 +1,2 @@
+SELECT TOP 1000000 radial_velocity, lum_val FROM gaiadr2.gaia_source
+WHERE (lum_val IS NOT NULL AND radial_velocity IS NOT NULL)
